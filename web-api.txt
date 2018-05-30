@@ -1,0 +1,59 @@
+1:
+Access Token - 
+An access token is an object encapsulating the security identity of a 
+process or thread. An access token contains the security credentials for 
+a login session and identifies the user, the user's groups, the user's 
+privileges, and, in some cases, a particular application. The access 
+token should be used as a bearer credential and transmitted in an HTTP 
+authorization header to the API.
+
+Steps for generating access token GITHUB - 
+1. Go to www.github.com
+2. Login to your account.
+3. Go to Settings.
+4. In the Personal Settings list, select Developer Settings.
+5. Choose Personal access tokens.
+6. Click on Generate new token.
+7. Confirm the password.
+8. Enter the token description and select scope.
+9. Click on Generate token.
+
+
+2:
+Steps to get the ip address of Google and Facebook using DNS lookup - 
+1. Go to the DNS lookup site www.mxtoolbox.com
+2. Type the domain name of the website for which you want to get the ip.
+3. Click on DNS Lookup.
+
+Domain name - www.google.com
+ip - 172.217.9.164
+
+Domain name - www.facebook.com
+ip - 157.240.18.35
+
+3:
+Difference between Library, Framework and API
+
+A library is a collection of functions / objects that serves one 
+particular purpose. you could use a library in a variety of projects.
+For example, a Bitmap Processing library will provide facilities for 
+loading and manipulating bitmap images, saving you having to write all 
+that code for yourself.
+
+A framework is a collection of patterns and libraries to help with 
+building an application.
+For example, .NET provides an application framework
+
+An API is an interface for other programs to interact with your program 
+without having direct access.
+
+To put it another way, think of a library as an add-on / piece of an 
+application , a framework as the skeleton of the application, and an API 
+as an outward-facing part of said app.
+
+In the context of Android Development:
+
+Library: android.app.Activity library (Class with all code)
+API: Android API to interact with hardware, like the front camera of an 
+Android-based device. If your app needs to vibrate the phone, you must 
+use the Android API method like vibratePhone()
